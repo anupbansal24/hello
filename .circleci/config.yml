@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# Python CircleCI 2.0 configuration file
-=======
 
->>>>>>> bb8a12dd553899b8a97451d3db222a2560accdcc
+# Python CircleCI 2.0 configuration file
 #
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
@@ -42,9 +39,5 @@ jobs:
           name: run lint
           command: |
             . venv/bin/activate
-<<<<<<< HEAD
             make lint 
             
-=======
-            make lint 
->>>>>>> bb8a12dd553899b8a97451d3db222a2560accdcc
