@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Python CircleCI 2.0 configuration file
+=======
+
+>>>>>>> bb8a12dd553899b8a97451d3db222a2560accdcc
 #
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
@@ -27,9 +31,7 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             make install
-            # Install hadolint
-            # wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
-             #   chmod +x /bin/hadolint
+          
       - save_cache:
           paths:
             - ./venv
@@ -40,5 +42,9 @@ jobs:
           name: run lint
           command: |
             . venv/bin/activate
+<<<<<<< HEAD
             make lint 
             
+=======
+            make lint 
+>>>>>>> bb8a12dd553899b8a97451d3db222a2560accdcc
